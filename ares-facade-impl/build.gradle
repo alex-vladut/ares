@@ -1,0 +1,4 @@
+dependencies {
+    compile project(':ares-facade'), project(':ares-domain-model'), project(':ares-domain')
+    compile libraries.dozer_mapper, libraries.groovy_lib;
+}

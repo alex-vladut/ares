@@ -1,0 +1,4 @@
+dependencies {
+	compile libraries.java_ee, libraries.hibernate.validator
+	compile project(':ares-common')
+}

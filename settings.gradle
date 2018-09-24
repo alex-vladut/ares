@@ -1,0 +1,8 @@
+
+include "ares-presentation"
+include "ares-facade", "ares-facade-impl"
+include "ares-view-model"
+include "ares-domain-model"
+include "ares-domain", "ares-domain-impl"
+include "ares-persistence", "ares-persistence-impl"
+include "ares-common"

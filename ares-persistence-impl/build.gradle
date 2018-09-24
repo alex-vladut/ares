@@ -1,0 +1,19 @@
+dependencies {
+    compile project(':ares-persistence')
+    compile libraries.hibernate.entitymanager, libraries.spring.data_jpa
+    compile libraries.spring.context, libraries.groovy_lib
+    runtime libraries.db_connector, libraries.data_source
+    testCompile libraries.testing.junit, libraries.spring.test,
+	    libraries.testing.hamcrest, libraries.testing.mockito
+}
+
+sourceSets {
+    integrationTest {
+	java {
+	    compileClasspath += main.output + test.output
+	    runtimeClasspath += main.output + test.output
+	    srcDir file('src/integration-test/java')
+	}
+	resources.srcDir file('src/integration-test/resources')
+    }
+}

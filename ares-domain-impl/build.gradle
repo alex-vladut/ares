@@ -1,0 +1,16 @@
+dependencies {
+    compile project(':ares-domain'), project(':ares-persistence')
+    compile libraries.spring.context, libraries.groovy_lib
+    testCompile libraries.testing.junit, libraries.testing.mockito
+}
+
+sourceSets {
+    integrationTest {
+	java {
+	    compileClasspath += main.output + test.output
+	    runtimeClasspath += main.output + test.output
+	    srcDir file('src/functional-test/java')
+	}
+	resources.srcDir file('src/functional-test/resources')
+    }
+}

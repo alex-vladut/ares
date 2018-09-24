@@ -1,0 +1,6 @@
+#org.springsource.ide.eclipse.gradle.core.preferences.GradleProjectPreferences
+#Sun Aug 09 22:01:15 EEST 2015
+build.family.org.gradle.tooling.model.eclipse.HierarchicalEclipseProject=;ares-common;ares-domain;ares-domain-impl;ares-domain-model;ares-facade;ares-facade-impl;ares-persistence;ares-persistence-impl;ares-presentation;ares-view-model;
+org.springsource.ide.eclipse.gradle.classpath.enableSorting=true
+org.springsource.ide.eclipse.gradle.linkedresources=
+org.springsource.ide.eclipse.gradle.rootprojectloc=
