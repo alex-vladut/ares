@@ -1,5 +1,0 @@
-import org.ares.controller.activity.mock.ActivityFacadeMock;
-
-beans{
-	activityFacade(ActivityFacadeMock);
-}
